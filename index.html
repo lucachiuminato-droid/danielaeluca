@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daniela e Luca | Il nostro matrimonio</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&display=swap" rel="stylesheet">
+  <style>
+    :root{--ice:#F4F6FC;--gold:#D4B872;--powder:#7287A6;--greige:#E6E1DC}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:'DM Sans',sans-serif;color:var(--powder);background:var(--ice)}
+    h1,h2,h3,.serif{font-family:'Fraunces',serif;font-weight:400}
+    section{scroll-margin-top:112px}
+    .site-shell{width:100%;overflow-x:clip}
+    .site-header{position:fixed !important;top:0;left:0;right:0;width:100%;z-index:2147483000;background:#F4F6FC !important;opacity:1;isolation:isolate;transform:translateZ(0)}
+    main{padding-top:88px}
+    .section-space{padding-top:clamp(4.5rem,8vw,7rem);padding-bottom:clamp(4.5rem,8vw,7rem)}
+    .eyebrow{text-transform:uppercase;letter-spacing:.22em;font-size:.7rem;font-weight:700}
+    .hero-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+    .hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(64,88,126,.88),rgba(83,109,150,.64) 62%,rgba(83,109,150,.3))}
+    .field{width:100%;min-width:0;padding:.85rem 1rem;background:var(--ice);border:1px solid var(--gold);border-radius:.85rem;color:var(--powder)}
+    .field:focus{outline:2px solid var(--gold);outline-offset:2px}
+    a:focus-visible,button:focus-visible,select:focus-visible,textarea:focus-visible,input:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+    .nav-link:hover{color:var(--gold)}
+    .primary-button:hover{background:#bea15c}
+    .secondary-button:hover{background:rgba(244,246,252,.16)}
+    .story-carousel{width:100%}.story-carousel-viewport{position:relative;overflow:hidden;border-radius:1.25rem}.story-carousel-track{display:flex;transition:transform .55s cubic-bezier(.22,.61,.36,1)}.story-slide{position:relative;min-width:100%;aspect-ratio:16/10;background:var(--greige);border-radius:1.25rem;overflow:hidden}.story-slide img{width:100%;height:100%;object-fit:cover;display:block}.carousel-empty{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding:2rem;text-align:center;font-style:italic;color:var(--powder);background:var(--greige)}.carousel-arrow{position:absolute;top:50%;transform:translateY(-50%);width:2.75rem;height:2.75rem;border:1px solid var(--gold);border-radius:999px;background:rgba(244,246,252,.9);color:var(--powder);font-size:2rem;line-height:1;z-index:2;cursor:pointer;transition:background .2s,color .2s}.carousel-arrow:hover{background:var(--gold);color:var(--ice)}.carousel-prev{left:1rem}.carousel-next{right:1rem}.carousel-dots{display:flex;justify-content:center;gap:.5rem;margin-top:1rem}.carousel-dot{width:.55rem;height:.55rem;border:0;border-radius:999px;background:var(--greige);cursor:pointer;padding:0}.carousel-dot.is-active{background:var(--gold);transform:scale(1.25)}.fade{animation:rise .75s both}
+    @keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+    @media(max-width:639px){
+      main{padding-top:145px}
+      section{scroll-margin-top:145px}
+      .hero-image{object-position:50% 35%}
+      .hero-shade{background:linear-gradient(90deg,rgba(64,88,126,.88),rgba(83,109,150,.7))}
+    }
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.fade{animation:none}}
+  </style>
+  <script src="https://cdn.tailwindcss.com/3.4.17" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js" type="text/javascript"></script>
+</head>
+<body class="w-full" style="background: rgb(244, 246, 252);">
+ <div class="site-shell">
+  <header class="site-header border-b border-[#D4B872] bg-[#F4F6FC]/95 backdrop-blur shadow-sm">
+   <div class="mx-auto w-full max-w-6xl px-5 sm:px-8 py-4 flex flex-wrap items-center justify-between gap-x-8 gap-y-3">
+    <a class="serif inline-flex items-center gap-3 whitespace-nowrap" href="#home" style="color: rgb(212, 184, 114);">
+     <span style="color: rgb(212, 184, 114); font-size: 22px;">Daniela e Luca</span>
+    </a>
+    <nav aria-label="Navigazione principale" class="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm font-semibold tracking-wide">
+     <a class="nav-link" href="#story" style="color: rgb(114, 135, 166);">La nostra storia</a> 
+     <a class="nav-link" href="#details" style="color: rgb(114, 135, 166);">Il matrimonio</a> 
+     <a class="nav-link" href="#travel" style="color: rgb(114, 135, 166);">Viaggio</a> 
+     <a class="nav-link" href="#gallery" style="color: rgb(114, 135, 166);">Galleria</a> 
+     <a class="nav-link" href="#gifts" style="color: rgb(114, 135, 166);">Regali</a>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <section id="home" class="relative flex min-h-[600px] items-center">
+    <div class="hero-shade" aria-hidden="true"></div>
+    <div class="relative mx-auto w-full max-w-6xl px-5 sm:px-8 py-20 sm:py-28">
+     <div class="fade max-w-2xl">
+      <p class="eyebrow mb-5" style="color: rgb(212, 184, 114);">Una celebrazione d’amore, insieme</p>
+      <p class="mb-3" style="color: rgb(244, 246, 252);">12 settembre 2027 · Hoteli i Gjuetisë, Ishull Lezhë, Albania</p>
+      <h1 class="leading-[1.08]" style="color: rgb(244, 246, 252); font-size: 3rem;">Daniela e Luca</h1>
+      <p class="mt-6 max-w-xl leading-relaxed" style="color: rgb(244, 246, 252);">Non vediamo l’ora di festeggiare con voi il nostro matrimonio. Qui troverete tutte le informazioni per il viaggio e la celebrazione.</p>
+      <div class="mt-8 flex flex-wrap gap-3">
+       <a class="primary-button inline-flex items-center justify-center rounded-full px-7 py-3.5 font-semibold transition" href="#details" style="background: rgb(212, 184, 114); color: rgb(244, 246, 252);">Scopri i dettagli</a>
+      </div>
+     </div>
+    </div>
+   </section>
+
+   <section id="details" class="section-space mx-auto px-5 sm:px-8" style="background: rgb(230, 225, 220);">
+    <div class="mx-auto w-full max-w-6xl text-center">
+     <p class="eyebrow mb-4" style="color: rgb(212, 184, 114);">La celebrazione</p>
+     <h2 style="color: rgb(114, 135, 166); font-size: 2rem;">Dettagli del matrimonio</h2>
+     <p class="mt-5 leading-relaxed" style="color: rgb(114, 135, 166);">La cerimonia, l’aperitivo, la cena e i festeggiamenti si svolgeranno tutti presso Hoteli i Gjuetisë, Ishull Lezhë, Albania.</p>
+    </div>
+   </section>
+  </main>
+ </div>
+</body>
+</html>
